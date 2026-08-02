@@ -1,9 +1,29 @@
 aid: workhuman
-name: workhuman
-description: workhuman is a company surfaced as a portfolio company of balderton-capital and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: Workhuman
+description: >-
+  Workhuman is an enterprise employee recognition and Human Intelligence
+  platform founded in 1999 (formerly Globoforce), headquartered in Framingham,
+  Massachusetts with global offices including Dublin, Ireland. The platform
+  serves 8M+ users across 180+ countries with configurable recognition
+  programs, a global rewards store ($1B+ in annual rewards sales), and
+  Workhuman iQ people analytics. It integrates recognition into Microsoft
+  Teams, Outlook, Slack, Yammer, and Workday, and describes a customer-facing
+  open API for custom integrations — but publishes no public developer portal,
+  API documentation, or machine-readable API specifications, so no public API
+  surface is indexed here.
 url: https://raw.githubusercontent.com/api-evangelist/workhuman/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.workhuman.com/favicon.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Employee Recognition
+- Human Resources
+- Employee Engagement
+- Rewards
+- People Analytics
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,34 @@ maintainers:
 common:
 - type: Website
   url: https://www.workhuman.com/
+- type: Blog
+  url: https://www.workhuman.com/blog/
+- type: Support
+  url: https://www.workhuman.com/contact-us/
+- type: Login
+  url: https://community.workhuman.com/private/login
+- type: PrivacyPolicy
+  url: https://www.workhuman.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.workhuman.com/terms-of-use/
+- type: StatusPage
+  url: https://status.workhuman.com/
+- type: Compliance
+  url: https://www.workhuman.com/why-workhuman/security-and-privacy/
+- type: LLMsTxt
+  url: llms/workhuman-llms.txt
+- type: WellKnown
+  url: well-known/workhuman-well-known.yml
+- type: DomainSecurity
+  url: security/workhuman-domain-security.yml
+- type: TrustCenter
+  url: security/workhuman-trust-center.yml
+- type: Conformance
+  url: conformance/workhuman-conformance.yml
+- type: Lifecycle
+  url: lifecycle/workhuman-lifecycle.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1

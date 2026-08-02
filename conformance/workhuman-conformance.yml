@@ -1,0 +1,54 @@
+generated: '2026-07-21'
+method: searched
+source: >-
+  https://www.workhuman.com/why-workhuman/security-and-privacy/ and
+  https://www.workhuman.com/llms.txt (saved at llms/workhuman-llms.txt).
+  Workhuman publishes no public developer portal or API specification, so
+  API-level standards (OAuth2/OIDC/SCIM/JSON:API/RFC 9457) cannot be assessed;
+  entries below are the provider's published organizational compliance claims.
+standards:
+  - id: iso-27001
+    conforms: true
+    evidence: >-
+      "We are an ISO27001:2022 ... certified organization, and this
+      certification covers the full scope of the services provided"
+      (Security & Privacy page).
+  - id: iso-27701
+    conforms: true
+    evidence: >-
+      ISO27701:2019 (privacy extension to ISO27001) certification stated on the
+      Security & Privacy page.
+  - id: pci-dss
+    conforms: true
+    evidence: >-
+      "Workhuman is also certified as a PCI DSS Level 3 Merchant. Our payments
+      provider is certified as a PCI DSS Level 1 payments provider"
+      (Security & Privacy page).
+  - id: gdpr
+    conforms: true
+    evidence: '"fully compliant with GDPR, CCPA, and other privacy legislation" (Security & Privacy page).'
+  - id: ccpa
+    conforms: true
+    evidence: '"fully compliant with GDPR, CCPA, and other privacy legislation" (Security & Privacy page).'
+  - id: nist-ai-rmf
+    conforms: true
+    evidence: >-
+      "Governance posture aligns with recognized frameworks including the NIST
+      AI Risk Management Framework and ISO/IEC 23894:2023" (llms.txt,
+      Responsible AI Posture).
+  - id: iso-23894
+    conforms: true
+    evidence: ISO/IEC 23894:2023 AI risk-management alignment claimed in llms.txt Responsible AI Posture.
+  - id: oauth2
+    conforms: null
+    evidence: >-
+      Not assessable: Workhuman describes a customer-facing "open API" for
+      integrations but publishes no public API documentation or specification;
+      SSO is supported for customer programs but no OAuth2/OIDC discovery
+      documents are exposed (/.well-known/ paths are 404/soft-404).
+  - id: oidc
+    conforms: null
+    evidence: 'Not assessable: no /.well-known/openid-configuration (soft-404) and no public auth docs.'
+  - id: rfc9457-problem-details
+    conforms: null
+    evidence: 'Not assessable: no public API reference or OpenAPI to inspect error media types.'

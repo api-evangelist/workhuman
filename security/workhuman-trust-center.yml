@@ -1,0 +1,35 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+url: https://www.workhuman.com/why-workhuman/security-and-privacy/
+source: https://www.workhuman.com/why-workhuman/security-and-privacy/
+description: >-
+  Workhuman publishes its security and compliance posture on a Security &
+  Privacy page rather than a trust.<domain> portal (trust.workhuman.com and
+  security.workhuman.com do not resolve, which is why the automated
+  trust-center probe recorded no hit — this is the searched, human-verified
+  fill). The page states Workhuman is ISO 27001:2022 and ISO 27701:2019
+  certified with the certification covering the full scope of services
+  provided, is a PCI DSS Level 3 certified merchant (its payments provider is
+  PCI DSS Level 1), is compliant with GDPR and CCPA, and conducts third-party
+  audits twice annually. The company's llms.txt (llms/workhuman-llms.txt, last
+  updated 2026-07-14) repeats these claims and adds that its responsible-AI
+  governance posture aligns with the NIST AI Risk Management Framework and
+  ISO/IEC 23894:2023.
+certifications:
+  - {name: ISO 27001, version: '2022', scope: full scope of services provided}
+  - {name: ISO 27701, version: '2019', note: privacy extension to ISO 27001}
+  - {name: PCI DSS, level: Level 3 Merchant, note: payments provider is a PCI DSS Level 1 payments provider}
+compliance:
+  - {name: GDPR, claim: fully compliant per Security & Privacy page}
+  - {name: CCPA, claim: fully compliant per Security & Privacy page}
+ai_governance:
+  - {framework: NIST AI Risk Management Framework, claim: governance posture aligns, source: llms/workhuman-llms.txt}
+  - {framework: ISO/IEC 23894:2023, claim: governance posture aligns, source: llms/workhuman-llms.txt}
+practices:
+  - twice-annual third-party security audits
+  - security awareness and data privacy training for all staff, additional training for IT/dev
+  - SSO, fraud detection, granular user privileges configurable per program
+evidence:
+  - {source: 'https://www.workhuman.com/why-workhuman/security-and-privacy/', keywords: [ISO27001:2022, ISO27701:2019, PCI DSS Level 3, GDPR, CCPA]}
+  - {source: llms/workhuman-llms.txt, kind: llms.txt Trust/Security section}

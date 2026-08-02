@@ -1,0 +1,41 @@
+generated: '2026-07-21'
+method: searched
+description: >-
+  Results of probing the /.well-known/ discovery surface for the Workhuman web
+  host (www.workhuman.com; api.workhuman.com exists in DNS but answers 502 for
+  every path, so nothing could be read from it). Status is the HTTP code
+  observed at fetch time. www.workhuman.com is a Next.js site that answers 200
+  with an HTML "Page Not Found" shell for unknown paths, so 200s whose payload
+  was the soft-404 shell are recorded as soft-404 and not saved. The one real
+  discovery document Workhuman publishes is /llms.txt (site root, not
+  /.well-known/), saved verbatim at llms/workhuman-llms.txt.
+hosts:
+  - host: https://www.workhuman.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 200
+        note: soft-404 (text/html "Page Not Found" shell, not an OIDC document)
+      - path: /.well-known/oauth-authorization-server
+        status: 200
+        note: soft-404 (text/html "Page Not Found" shell, not an RFC 8414 document)
+      - path: /.well-known/api-catalog
+        status: 200
+        note: soft-404 (text/html "Page Not Found" shell, not an api-catalog document)
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /llms.txt
+        status: 200
+        type: text/plain
+        file: ../llms/workhuman-llms.txt
+        note: real llms.txt, saved verbatim (last updated 2026-07-14 per its own header)
+  - host: https://api.workhuman.com
+    note: resolves in DNS but every request answered HTTP 502 at probe time; no documents readable
+    documents:
+      - path: /.well-known/security.txt
+        status: 502
+      - path: /.well-known/openid-configuration
+        status: 502

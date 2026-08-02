@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.workhuman.com/
+description: >-
+  Workhuman operates a public status page at status.workhuman.com (Atlassian
+  Statuspage). The company publishes no public API versioning or deprecation
+  policy — its "open API" for custom integrations is a customer-facing surface
+  with no public developer documentation — so versioning/deprecation/SLA are
+  recorded as not published rather than absent from the product.
+status_page: https://status.workhuman.com/
+status_platform: Atlassian Statuspage
+versioning:
+  scheme: null
+  docs: null
+  notes: No public API versioning policy published.
+deprecation:
+  policy_url: null
+  sunset_header: null
+  notes: No public deprecation policy or RFC 8594 Sunset/Deprecation header documentation.
+sla:
+  url: null
+  public_uptime_target: null
+deprecated_operations: []
