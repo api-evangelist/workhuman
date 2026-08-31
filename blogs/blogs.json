@@ -2,13 +2,20 @@
   "repo": "workhuman",
   "feeds": [
     {
+      "source": "https://www.workhuman.com/feed/",
+      "feed_url": "https://www.workhuman.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://www.workhuman.com/",
       "feed_url": "https://www.workhuman.com/feed/",
       "title": "",
-      "saved": 1,
+      "saved": 0,
       "method": "discovered"
     }
   ],
-  "post_count": 1,
-  "fetched": "2026-08-22T20:20:02Z"
+  "post_count": 51,
+  "fetched": "2026-08-30T22:33:40Z"
 }
