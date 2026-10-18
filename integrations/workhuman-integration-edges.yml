@@ -1,0 +1,24 @@
+edges:
+- partner_name: Microsoft Teams (own)
+  partner: microsoft-teams
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://appsource.microsoft.com/en-us/product/office/WA200005713
+  mirror_of: microsoft-teams/integrations/microsoft-teams-integration-edges.yml
+  apps:
+  - Workhuman
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Microsoft Teams app
+generated: '2026-10-18'
+method: searched
+source:
+- microsoft-teams/integrations/microsoft-teams-integration-edges.yml
+checked:
+- microsoft-teams/integrations/microsoft-teams-integration-edges.yml
