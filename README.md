@@ -1,4 +1,4 @@
-# workhuman
+# Workhuman
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-workhuman is a company surfaced as a portfolio company of balderton-capital and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Workhuman is an enterprise employee recognition and Human Intelligence platform founded in 1999 (formerly Globoforce), headquartered in Framingham, Massachusetts with global offices including Dublin, Ireland. The platform serves 8M+ users across 180+ countries with configurable recognition programs, a global rewards store ($1B+ in annual rewards sales), and Workhuman iQ people analytics. It integrates recognition into Microsoft Teams, Outlook, Slack, Yammer, and Workday, and describes a customer-facing open API for custom integrations — but publishes no public developer portal, API documentation, or machine-readable API specifications, so no public API surface is indexed here.
 
-Backed by: balderton-capital — https://www.workhuman.com/
+**Areas:** Company · Employee Recognition · Human Resources · Employee Engagement · Rewards · People Analytics · Software-as-a-Service · Loyalty & Incentives
+
+## Workhuman on APIs.io
+
+Everything profiled for Workhuman is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/workhuman/](https://apis.io/providers/workhuman/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Workhuman Domain Security](https://apis.io/security/workhuman/workhuman-domain-security/)
+- [Workhuman Trust Center](https://apis.io/security/workhuman/workhuman-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.workhuman.com/)
+- [Support](https://www.workhuman.com/contact-us/)
+- [Blog](https://www.workhuman.com/blog/)
+- [Compliance](https://www.workhuman.com/why-workhuman/security-and-privacy/)
+- [Terms of service](https://www.workhuman.com/terms-of-use/)
+- [Privacy policy](https://www.workhuman.com/privacy-policy/)
+- [Status](https://status.workhuman.com/)
+
+## API Evangelist rating
+
+**Kin Score 20.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 43.4 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 23.5** — Employment & Payroll
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/workhuman/](https://apis.io/providers/workhuman/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Workhuman: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/workhuman/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
